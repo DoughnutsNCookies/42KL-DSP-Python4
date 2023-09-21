@@ -15,7 +15,7 @@ class Student:
     surname: str = ""
     active: bool = True
     login: str = ""
-    id: str = field(default_factory=generate_id)
+    id: str = field(default_factory=generate_id, init=False)
 
     def __post_init__(self):
         """Post init method"""
