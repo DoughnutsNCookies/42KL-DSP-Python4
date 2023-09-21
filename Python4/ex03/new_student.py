@@ -21,4 +21,4 @@ class Student:
         """Post init method"""
         self.name = self.name
         self.surname = self.surname
-        self.login = (self.name[0] + self.surname)
+        self.login = self.name[0] + self.surname
