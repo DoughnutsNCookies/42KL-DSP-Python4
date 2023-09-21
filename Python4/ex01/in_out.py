@@ -1,6 +1,6 @@
 def square(x: int | float) -> int | float:
     """Return the square of x"""
-    return x * x
+    return float(x * x)
 
 
 def pow(x: int | float) -> int | float:
